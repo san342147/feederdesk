@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.db
+*.db-*
+.env
+*.log
+.pytest-tmp/
+.chrome-capture/
+.edge-capture/
