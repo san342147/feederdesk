@@ -1,9 +1,15 @@
-# LinkedIn draft — review before publishing
+# LinkedIn post draft — do not publish until approved
 
-I built FeederDesk, a local power incident desk for a facility team. An operator can record an outage, revise its ETA, and confirm each change. A resident can select an area and see the latest staff report with its source and last confirmed update time.
+As a student developer, I built **FeederDesk**, a facility incident desk that helps staff share power outage updates with residents.
 
-The engineering focus was a reliable tool harness: four allowlisted, schema-validated read tools; per-call timeouts; bounded retries only for transient read failures; and a visible trace of each call. The app also works without an LLM key.
+Staff can record an incident and confirm each update. Residents can look up a building, review the status and estimated restoration time, and see the source and last update. The app also shows a trace of each validated lookup.
 
-In my local run on 25 September 2026, the seven automated tests passed. I also walked through a browser lookup and an operator update. The current demo uses synthetic training data and has no live utility feed. Before use by a real facility, I would validate the workflow with staff and residents and complete that organization's security and operational review.
+I built the full stack with FastAPI, SQLite, and a responsive HTML, CSS, and JavaScript interface. The local test suite passed seven tests. The current demo uses synthetic training data and is not connected to a utility feed, so its reports are examples only.
 
-[Add repository URL and a verified screenshot after publication.]
+Code: https://github.com/san342147/feederdesk
+
+I also prepared a 30-second website walkthrough to attach when I’m ready to share it.
+
+#StudentDeveloper #FullStackDevelopment #Python #FastAPI #SoftwareEngineering
+
+**Posting status:** Draft only. The video and post have not been uploaded to LinkedIn.
